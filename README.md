@@ -1,3 +1,7 @@
+# Translation
+
+This fork adds an English translation for the 836 engine type. Similar work could be done to the other csv files by importing them into google sheets, and running the formula =googletranslate(B2,"ru","en-gb") on every cell.
+
 # External PIDs for Renault K9k engine parameters in Torque Pro and similar
 
 Torque is a vehicle/car performance/diagnostics tool and scanner that uses an OBD II Bluetooth adapter to connect to your OBD2 engine management/ECU. Torque requires a file with external PIDs to support car/engine/ECU specific parameters.
@@ -15,7 +19,7 @@ Please check your engine variant (K9k XXX) and chose suitable PIDs.
 
 All PIDs files created with [PyRen](https://gitlab.com/py_ren/pyren) initially and then adopted manually. Authors and contributors do not take any responsibility for any possible damage to using these PIDs on your vehicle. 
 
-## Linecnce
+## License
 
 MIT
 
