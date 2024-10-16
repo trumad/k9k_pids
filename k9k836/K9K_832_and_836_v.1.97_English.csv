@@ -1,0 +1,256 @@
+Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
+[ET001] Plus After On Ignition On Computer,Ignition,22200E,{A:0},0,0,,7E0
+[ET018] On Request Air conditioner,AC req,222229,{A:0},0,0,,7E0
+[ET038] Engine,Engine,222010,A,0,0,,7E0
+[ET041] Forward Rel. Gearboxes,FR Gearboxes,222C04,(A&7),0,0,,7E0
+[ET043] Speed ​​Adjustment,Speed adj,222079,{A:3},0,0,,7E0
+[ET115] Signal. Pre-start lamp Preheating,Glow lamp,222823,{A:0},0,0,,7E0
+[ET116] Enable Always On Air conditioner,AC perm,222092,{A:0},0,0,,7E0
+[ET160] Relay Prev Command Preheating,Glow,22201A,{A:0},0,0,,7E0
+[ET205] Control Relay Res. Syst. Cool. No. 1,T-1,22201D,{A:0},0,0,,7E0
+[ET206] Control Relay Res. Syst. Cool. No. 2,T-2,22201D,{A:1},0,0,,7E0
+[ET207] Control Relay Res. Syst. Cool. No. 3,T-3,22201D,{A:2},0,0,,7E0
+[ET336] Horn Function Parameter Value Entry,input value param horn,222479,{A:0},0,0,,7E0
+[ET405] Clutch Pedal Contact,ped clutch control,22222D,(A&7),0,0,,7E0
+[ET413] QC/CL function,QC function,22204C,(A&7),0,0,,7E0
+[ET521] Minimum Fuel Level Information,min ur fuel,22281B,{A:0},0,0,,7E0
+[ET587] Cooling System Exhaust Gas Recirculation,syst ohl horn,22240F,{A:0},0,0,,7E0
+[ET649] Water In Diesel Fuel Detector,water!,22FD70,{A:0},0,0,,7E0
+[ET673] Det. Accelerator Pedal Locks,Accel blocker,222036,A,0,0,,7E0
+[ET691] Engine Start Switch,Start Sw,222079,{A:0},0,0,,7E0
+[ET702] Static Regeneration,St Regen,222434,(A&7),0,0,,7E0
+[ET703] Cruise Control/Speed ​​Limiter Switch,off QC,22204B,(A&7),0,0,,7E0
+[ET723] Displayed Vehicle Speed,disp speed,222226,{A:0},0,0,,7E0
+[ET724] Multiplex. Vehicle Speed ​​Information,info speed,222225,{A:0},0,0,,7E0
+[ET726] Engage Reverse,put the car in reverse,222079,{A:1},0,0,,7E0
+[ET727] Connect Reg/Ogr Sc After Press Off Reg Sc,connect kk after reg speed,22203B,{A:0},0,0,,7E0
+[ET728] Connect Reg/Ogr Sc After Press Off Ogr Sk,connect kk after ogre speed,22203E,{A:0},0,0,,7E0
+[ET732] Manual Or Automatic. Parking Brake,parking,22222B,{A:0},0,0,,7E0
+[ET755] Nate. Pos. Lever Switch Mechanic Cor. Per,neutral manual transmission,22222E,(A&3),0,0,,7E0
+[ET756] Auto. Cor. Per. Works in reserve. Mode,Automatic bypass!,22204F,{A:6},0,0,,7E0
+[ET757] Per Inf On Mule Network From Ped Clutch Move Dates,info on cartoon from clutch,222222,{A:0},0,0,,7E0
+[ET759] Trans. Inf. According to Mul. Networks O Location Braking,brake detection,22200F,(A&15),0,0,,7E0
+[ET760] First Engine Start,first engine start,222047,{A:0},0,0,,7E0
+[ET764] Signal Sensor Start Move Ped Sc Via Prov Communication,start of travel of ped clutch,22222F,{A:0},0,0,,7E0
+[ET767] Vehicle Speed ​​Unit,unit speed measurement,222051,{A:0},0,0,,7E0
+[ET774] Boost Pressure Control,boost pressure reg,22241E,(A&31),0,0,,7E0
+[ET775] Sync. Signal Vmt Dutch. Pos. Shaft distribution,sync signal tmt sensor camshaft position,222014,{A:0},0,0,,7E0
+[ET785] Clutch Pedal Position Info Not Available,information about ped clutch is not available,22204F,{A:0},0,0,,7E0
+[ET786] Clutch Pedal Position Info Missing,There is no information about ped clutch,22204F,{A:1},0,0,,7E0
+[ET787] Brake Pedal Position Info Not Available,Ped brake information is not available,22204F,{A:2},0,0,,7E0
+[ET788] Brake Pedal Position Info Missing,There is no information about ped brakes,22204F,{A:3},0,0,,7E0
+[ET789] Decelerate Without Pressing Brake Pedal,auto stop,22204F,{A:4},0,0,,7E0
+[ET790] Sharp Slowdown Without Pressing Ped Brake,fast stop,22204F,{A:5},0,0,,7E0
+[ET791] Injection System Speed ​​Regulator Off,off QC injection system,22204F,{A:7},0,0,,7E0
+[ET792] Injection System ECU Speed ​​Limit Off,off QC injection system,22204E,{A:5},0,0,,7E0
+[ET793] Info. About Current Speed ​​Auto. Not available,info about tech abbr unavailable,22204E,{A:0},0,0,,7E0
+[ET794] Info. About Display On Screen Speed Auto. Insufficient,speed display information is not available,22204E,{A:1},0,0,,7E0
+[ET795] Current Vehicle Speed ​​Info Missing,info about tech abbr is missing,22204E,{A:2},0,0,,7E0
+[ET796] Display Info Speed ​​Auto None,no information about display speed,22204E,{A:3},0,0,,7E0
+[ET797] Change Unit. Vehicle Speed ​​Measurements,change unit speed measurement,22204E,{A:4},0,0,,7E0
+[ET799] Connect Brake Light Switch with Wires,connect off brake light wires,222026,(A&3),0,0,,7E0
+[ET807] Anti-slip. Sys. And Stabiliz. Traject.,ESP,222079,{A:2},0,0,,7E0
+[ET808] Parking Brake,parking,222079,{A:4},0,0,,7E0
+[ET813] Low Speed ​​Request El/Vent. With ECU Injection,request low speed vent from injection computer,22204A,{A:0},0,0,,7E0
+[ET814] Request High Speed El/Vent. With ECU Injection,request high speed fan from injection computer,22204A,{A:1},0,0,,7E0
+[ET815] Request Low Speed ​​Electric/Fan. With ECU Cond.,request low speed vent with air conditioning computer,22204A,{A:2},0,0,,7E0
+[ET816] Request High Speed ​​Electric/Fan. With ECU Cond.,request high speed fan with air conditioning computer,22204A,{A:3},0,0,,7E0
+[ET817] Request Low Speed ​​Electric/Fan With Automatic Transmission ECU,request low speed vent with automatic transmission computer,22204A,{A:4},0,0,,7E0
+[ET818] Request High Speed ​​Electric/Fan With Automatic Transmission ECU,request high speed fan with automatic transmission computer,22204A,{A:5},0,0,,7E0
+[ET819] End Low Power/Fan Speed ​​Request,end request bottom speed fan,22204A,{A:6},0,0,,7E0
+[ET820] Finish Request High Speed ​​Electric/Fan,end request high speed fan,22204A,{A:7},0,0,,7E0
+[ET824] Regeneration Command,com regen,22246D,A,0,0,,7E0
+[ET825] Regeneration Enable,complete the regen,222166,{A:0},0,0,,7E0
+[ET826] Com.E/M Valve.Force.Injection System With Use. Og,com e/m valve force system injection,222878,{A:0},0,0,,7E0
+[ET827] Programmed Opening of the First Entrance. valves,programmed to open the first inlet valve,222477,{A:0},0,0,,7E0
+[ET828] Programmed Closing the First Inlet. valves,programmed to close the first inlet valve,222478,{A:0},0,0,,7E0
+[ET832] Enable Conn. Reg./Limit. Speeds,permission to connect QC,22222F,A,0,0,,7E0
+[ET834] Reg. Speed Ebu System is blocked. Vpr.,reg speed blocked,222079,{A:5},0,0,,7E0
+[ET835] Limit. Speed Ebu System is blocked. Vpr.,Ogre blocked soon,222079,{A:6},0,0,,7E0
+[ET837] Crankshaft Synchronization,synchronizing knee shaft,222016,{A:0},0,0,,7E0
+[ET838] Combustion Mode Adjustments,reg burner,222055,(A&15),0,0,,7E0
+[ET839] Combustion Mode,combustion mode,222056,(A&15),0,0,,7E0
+[ET879] Crankshaft Rotation Frequency Sig,crankshaft rotation frequency signal,222161,{A:0},0,0,,7E0
+[LC165] Speed ​​Limiter Function,speed limit function,22203D,{A:0},0,0,,7E0
+[LC166] Speed ​​Controller Function,speed control function,22203A,{A:0},0,0,,7E0
+[LC167] Cruise Control/Speed ​​Limiter Switch,off QC,222041,{A:0},0,0,,7E0
+[PR002] Charge From Generator,charge,222099,(1.0*(A))/2.55,0,0,%,7E0
+[PR005] Horn Valve Opening Installation,mouth open horn,222408,(1.0*((A*256+B)-32768))/100,0,0,%,7E0
+[PR006] Pressure Regulator Current In Topl. Collector,current pressure regulator in fuel call,22FDBA,(1.0*(((A*256+B))*1000))/314.76,0,0,mA,7E0
+[PR008] Fuel Rail Pressure Setpoint,def P fuel,222802,(A*256+B),0,0,bar,7E0
+[PR009] Boost Pressure Setting,def P boost,222402,(A*256+B),0,0,mbar,7E0
+[PR015] Engine Torque,torque,222004,(1.0*((A*256+B)-12800))/32,0,0,Nm,7E0
+[PR017] Fuel Supply,fuel supply,222806,(1.0*((A*256+B)))/100,0,0,mg/cp,7E0
+[PR018] Est. Air flow,air flow estimates,222421,(1.0*((A*256+B)))/10,0,0,mg/cp,7E0
+[PR025] Mileage. Km,mileage,222006,(A*65536+B*256+C),0,0,km,7E0
+[PR030] Accelerator Pedal Position,put ped ax,22202E,(1.0*((A*256+B)))/8,0,0,%,7E0
+[PR035] Atmospheric Pressure,P atm,222009,(A*256+B),0,0,mbar,7E0
+[PR037] Refrigerant Pressure,P cool,22222A,(1.0*((A*256+B)))/10,0,0,bar,7E0
+[PR038] Fuel Line Pressure,P fuel,222801,(A*256+B),0,0,bar,7E0
+[PR041] Boost Pressure,P boost,222401,(A*256+B),0,0,mbar,7E0
+[PR048] Rel. C. Rev. Cl. Reg. D. In General T-Prov.,rel c open cl reg d in total,22FDB9,(1.0*((A*256+B)))/655.36,0,0,%,7E0
+[PR055] Engine speed,,222002,(A*256+B)/4,0,0,rpm,7E0
+[PR059] Intake Air Temperature,T air,22240D,(1.0*((A*256+B)-2730))/10,0,0,*C,7E0
+[PR063] Fuel Temperature,Tfuel,222008,(1.0*((A*256+B)-2730))/10,0,0,*C,7E0
+[PR064] Water Temperature,T water,222001,(1.0*((A*256+B)-2730))/10,0,0,*C,7E0
+[PR071] Computer Supply Voltage,V,222005,(1.0*((A*256+B)))/100,0,0,V,7E0
+[PR079] Atmospheric Sensor Voltage Davl.,V sensor atm pressure,222012,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR080] Voltage Fuel Pressure Sensor Collect.,V pressure sensor in fuel call,22FD8A,(1.0*((A*256+B)))/13106.159,0,0,V,7E0
+[PR082] Temp Sensor Voltage Fuel,V fuel sensor T,22FD89,(1.0*((A*256+B)))/6553.6,0,0,V,7E0
+[PR084] Temp Sensor Voltage Water,V sensor T water,22FD8B,(1.0*((A*256+B)))/6553.6,0,0,V,7E0
+[PR089] Vehicle Speed,speed,222003,(1.0*((A*256+B)))/100,0,0,km/h,7E0
+[PR1005] Exhaust Passage in the Particle Filter,Exhaust gas in DPF,222447,(1.0*((A*256+B)))/10,0,0,m3/h,7E0
+[PR1006] Sensor Volt. Rel.Pres. In the Anti-Soot Filter,V relative pressure sensor in DPF,222446,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR1007] Com. Cycle Ratio Open.Force.Anti-Soot.Fil,com relative to the open cycle force DPF,222826,(1.0*((A*256+B)))/100,0,0,%,7E0
+[PR1008] Last Regeneration Duration,long lasting regen,222487,(1.0*((A*256+B)))/600,0,0,min,7E0
+[PR1009] Setpoint Temp.Value.Before Anti-Part Filter,mouth value T before DPF,222432,(1.0*((A*256+B)-2730))/10,0,0,*C,7E0
+[PR1016] Diagnosis Power Voltage Connection Inlet.Flats,diag V pit connect inlet,2224D3,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR1017] Rel. Air Intake Flap Position,rel posl air intake,222404,(1.0*((A*256+B)))/20.491,0,0,%,7E0
+[PR1019] Engine Total Torque,ttorque,222067,(1.0*((A*256+B)))/32,0,0,Nm,7E0
+[PR1020] Pressure Sensor Offset Anti-soot Filter,DPF pressure sensor offset,2224C2,(A*256+B)-32768,0,0,mbar,7E0
+[PR1021] Abs. Air Intake Flap Position,abs air lock,2224CA,(1.0*((A*256+B)))/20.491,0,0,%,7E0
+[PR1022] Wed. Air Flow Sensor Signal Period,Wed signal period air flow sensor,22FD69,(A*256+B),0,0,mks,7E0
+[PR1023] Volt. Air Intake Flap Sensor,V sensor for air intake,2224D6,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR1024] Temp. Before Block Zasl. Air Intake,T in front of block blocked air inlet,22244D,(1.0*((A*256+B)-2730))/10,0,0,*C,7E0
+[PR1025] Set Position Air Intake Flaps,rear air intake valve,2224D2,(1.0*((A*256+B)-32767))/20.491,0,0,%,7E0
+[PR1026] Crankshaft Synchronization Loss Counter,loss of crankshaft timing,222162,(A*256+B),0,0,,7E0
+[PR1029] Generator Power,powerful,222057,10*(A*256+B),0,0,W,7E0
+[PR1031] Total Flow of Injection System,total consumption of injection system,222809,(1.0*((A*256+B)))/100,0,0,mg/cp,7E0
+[PR1033] Srog Sensor Supply Voltage,V EGR sensor,2224D5,(A*256+B),0,0,mV,7E0
+[PR1035] Adapt. Status Cyl. 1,composition adapt cyl 1,22FD15,A,0,0,,7E0
+[PR1036] Adapt. Status Cyl. 2,composition adapt cyl 2,22FD16,A,0,0,,7E0
+[PR1037] Adapt. Status Cyl. 3,composition adapt cyl 3,22FD17,A,0,0,,7E0
+[PR1038] Adapt. Status Cyl. 4,composition adapt cyl 4,22FD18,A,0,0,,7E0
+[PR1078] Mileage After Replacing Anti-Soot. Filter,mileage after DPF replacement,2224BB,(A*65536+B*256+C),0,0,km,7E0
+[PR1079] Mileage Since Last. Successful Regenerator.,mileage with mom after success regen,2224A9,(A*65536+B*256+C),0,0,km,7E0
+[PR1229] Flow After Injection System,flow rate after injection system,22280D,(1.0*((A*256+B)))/100,0,0,mg/cp,7E0
+[PR1232] Number of Crankshaft Revolutions,number of crankshaft gears,22210E,(1.0*(A*16777216+B*65536+C*256+D))/1000000,0,0,,7E0
+[PR1245] Phasing After Injection,phaser after injection,222813,(1.0*((A*256+B)-32768))/50,0,0,,7E0
+[PR128] First Horn Valve Offset,first displacement of the horn,22242A,(1.0*((A*256+B)))/20.4918,0,0,%,7E0
+[PR129] Last Horn Valve Offset Value,after moving the horn,222429,(1.0*((A*256+B)))/20.4918,0,0,%,7E0
+[PR130] Speed ​​regulation setting,mouth speed QC,222035,A,0,0,km/h,7E0
+[PR135] Voltage to Off Regulator/Limiter Speed,V off KKSL,222039,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR136] Horn position,horn position,222407,(1.0*((A*256+B)))/20.491,0,0,%,7E0
+[PR146] Intake Air Supply,air intake supply,222412,(1.0*((A*256+B)))/10,0,0,mg/cp,7E0
+[PR147] Voltage Potential Pedals Tract 1,V pedal path 1,22200B,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR148] Voltage Potential Trakt 2 pedals,V pedal path 2,22200C,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR160] Voltage Potentiometer Horn,V potential horn,222424,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR180] Air Supply Setting,air supply mouth,222413,(1.0*((A*256+B)))/10,0,0,mg/cp,7E0
+[PR215] Voltage No. 1 Power Sensors,V 1 sensors,222021,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR216] Voltage No. 2 Power Sensors,V 2 sensors,222022,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR224] Pressure Sensor Voltage Supercharging,V boost pressure sensor,22FD82,(1.0*((A*256+B)))/6553.6,0,0,V,7E0
+[PR241] Horn Valve Control,control valve horn,222409,(1.0*((A*256+B)-32768))/100,0,0,%,7E0
+[PR279] Intake Damper Command,com inlet damper,222406,(1.0*((A*256+B)-32768))/100,0,0,%,7E0
+[PR312] Manifold Pressure,P in manifold,22240B,(A*256+B),0,0,mbar,7E0
+[PR364] Fuel Rate Correction for Cylinder No. 1,corr deb cyl 1,22FD07,0.0000305*(A*256+B),0,0,,7E0
+[PR365] Fuel Rate Correction for Cylinder No. 4,corr deb cyl 4,22FD0A,0.0000305*(A*256+B),0,0,,7E0
+[PR382] Anti-Soot Inlet Temp. Filter,T at DPF input,222442,(1.0*((A*256+B)-2730))/10,0,0,*C,7E0
+[PR383] Soot mass in the particle filter,M soot in DPF,22242C,(1.0*((A*256+B)))/100,0,0,g,7E0
+[PR385] Exhaust Line Flow,exhaust gas flow rate,222400,(1.0*((A*256+B)))/100,0,0,g/s,7E0
+[PR405] Cylinder No. Fuel Flow Correction 2,corr fuel cyl 2,22FD08,0.0000305*(A*256+B),0,0,,7E0
+[PR406] Cylinder No. Fuel Flow Correction 3,corr fuel cyl 3,22FD09,0.0000305*(A*256+B),0,0,,7E0
+[PR414] Differential Pressure Particle Filter,differential pressure DPF,222542,(A*256+B)-32768,0,0,mbar,7E0
+[PR415] Time Since Last Regeneration,time with mom after regen,222488,(1.0*(A*256+B))/3600,0,0,h,7E0
+[PR542] Value Potential When Closed Valve Horn,value of potential when the horn is closed,2224CF,(1.0*(A*256+B))/20.491,0,0,%,7E0
+[PR635] Supply Voltage N°3 Sensors,V 3 sensors,222023,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR636] Turbine Inlet Pressure,P on input @,222448,(A*256+B),0,0,mbar,7E0
+[PR667] Turbine Inlet Temperature,T on input @,222439,(1.0*((A*256+B)-2730))/10,0,0,*C,7E0
+[PR668] Temp Sensor Voltage At the Turbine Inlet,V sensor T at input @,22243A,(1.0*((A*256+B)))/6553.08,0,0,V,7E0
+[PR670] Voltage Temp Sensor Before Counter Filter,V sensor T in front of DPF,22FD88,(1.0*((A*256+B)))/6553,0,0,V,7E0
+[PR672] Preset Position Air Intake Flaps,rear air intake valve,222405,(1.0*((A*256+B)-32767))/20.491,0,0,%,7E0
+[PR739] Current El/Magn. Valve Adjustable Fuel supply,current e/m valve reg for fuel,22FDB8,(1.0*(((A*256+B))*1000))/314.76,0,0,mA,7E0
+[PR774] Voltage Dutch. Pos. Honored Air inlet,V sensor position air intake damper,222417,(1.0*(A*256+B))/1000,0,0,V,7E0
+[PR782] Voltage Pressure sensor At the Turbine Inlet,V input pressure sensor @,22FD86,(1.0*((A*256+B)))/6553,0,0,V,7E0
+[PR804] Vehicle Mileage At Last Appearance. Fault,mileage when a fault appears,190680,(E*65536+F*256+G),0,0,km,7E0
+[PR806] Number of Incidents of Malfunction Occurrence,number of cases faulty,190684,E,0,0,7E0,7E0
+[PR827] Resume Button Press Duration,how long you press the R button,22207A,A,0,0,s,7E0
+[PR828] Key Press Duration +,Duration of pressing the + button,22207B,A,0,0,s,7E0
+[PR829] Button Press Duration -,button press duration -,22207C,A,0,0,s,7E0
+[PR830] Duration Press. Pause buttons,button press duration,22207D,A,0,0,s,7E0
+[PR846] Sco Electromag. Valves Reg. Dove. Supercharging,boost control valve e/m,222403,(1.0*((A*256+B)))/100,0,0,%,7E0
+[PR847] Voltage Sensor Temp. Incoming Air,V sensor T air,22FD84,(1.0*((A*256+B)))/6553.6,0,0,V,7E0
+[PR848] Number of Failed Regeneration Attempts,number of failed regen attempts,222485,A,0,0,,7E0
+[PR849] Number of Abnormal Per From Dir Reg To Dir Ogr Sk,number of abnormalities in AC modes,22207E,A,0,0,7E0,7E0
+[PR850] Set Value Current Forces. Fuel Supply,rear current value fuel supply,22FDB7,((A*256+B)),0,0,mA,7E0
+[PR851] Displayed Vehicle Speed,display speed,222050,(1.0*((A*256+B)))/100,0,0,km/h,7E0
+[PR858] First Offset Open Damper Air Inlet,first shifting open air damper,222425,(1.0*(A*256+B))/20.491,0,0,%,7E0
+[PR859] First Offset Closed Damper Inlet Air,first displacing the closed air valve,222427,(1.0*(A*256+B))/20.491,0,0,%,7E0
+[PR860] Air Intake Damper Last Shifted Closed,after displacing the closed air valve,222428,(1.0*(A*256+B))/20.491,0,0,%,7E0
+[PR861] Sequence Displaced Air Intake Damper Open,after shifting open air damper,222426,(1.0*(A*256+B))/20.4918,0,0,%,7E0
+[PR864] Valve Control Valve Fuel supply To Rampa,fuel control valve,22FDB6,(1.0*((A*256+B)))/655.36,0,0,%,7E0
+[PR869] Vehicle Mileage When First Appears Defective,mileage at first fault,190687,(E*65536+F*256+G),0,0,km,7E0
+[PR870] Mileage With Fault Present,mileage with faulty,190686,(E*65536+F*256+G),0,0,km,7E0
+[PR889] Set. Meaning Temperature At the Turbine Inlet,set value T on input @,222438,(1.0*((A*256+B)-2730))/10,0,0,*C,7E0
+[PR890] Prep Spark Plug Control Preheating,control Glow,222052,(1.0*(A))/2.55,0,0,%,7E0
+[PR891] Preheating Mode,Glow mode,22219A,(1.0*((A*256+B)))/4,0,0,%,7E0
+[PR914] Successful Regeneration Counter,account usp regen,222481,A,0,0,,7E0
+[PR916] Measured Mass Air Flow,air flow mass measurement,2224F2,(1.0*((A*256+B)))/10,0,0,kg/h,7E0
+[PR929] Total Relative Pressure V Psf,full pressure ratio DPF,2224000,(A*256+B)-32768,0,0,mbar,7E0
+[PR931] Full Boost Pressure,full boost pressure,22F40B,(A)*10,0,0,mbar,7E0
+[PR932] Engine Oil Dilution Rate,oil dilution degree,2224EC,(1.0*(signed(A*16777216+B*65536+C*256+D)))/1000000,0,0,%,7E0
+[PR988] Flow After Injection System 1,flow rate after injection system 1,22280E,(1.0*((A*256+B)))/100,0,0,mg/cp,7E0
+[Automatic] Clutch 1 Temperature,T clutch1,21A7,(1.0*(signed(I*256+J)))/4,0,0,*C,7E1
+[Automatic] Clutch 2 Temperature,T clutch2,21A7,(1.0*(signed(K*256+L)))/4,0,0,*C,7E1
+[Automatic Transmission] Effective Engine Torque,Ef cool moment,222037,(1.0*(signed(A*256+B)))/8,0,0,об/мин,7E1
+[Automatic] Current Gear Position,Gear,222C46,A,0,0,,7E1
+[Automatic Transmission] Clutch Slip Point 1,dot prosk sc1,2133,(1.0*(signed(C*256+D)))/100,0,0,mm,7E1
+[Automatic] Clutch Slip Point 2,dot prosk sc2,2163,(1.0*(signed(C*256+D)))/100,0,0,mm,7E1
+[Automatic] Position Select,put a choice,21A6,(1.0*signed(AK*256+AL))/64,0,0,%,7E1
+[Automatic Transmission] Output Mode,about after automatic transmission,21A6,(1.0*(signed(G*256+H)))/8,0,0,об/мин,7E1
+[Automatic Transmission] Transmission Oil Temperature,Automatic transmission oil T,21A6,AF-40,0,0,*C,7E1
+[Automatic transmission] Clutch 1,Clutch 1,21A7,P,0,0,,7E1
+[Automatic transmission] Clutch 2,Clutch 2,21A7,Q,0,0,,7E1
+[Door] Outside Temperature,Text,2103,V-40,0,0,*C,705
+[ABS] Pressure in Brake Cylinder Left Front Wheel,P TC FL,2107,0.5*G,0,0,bar,740
+[ABS] Pressure in Brake Cylinder Right Front Wheel,P TC FR,2107,0.5*H,0,0,bar,740
+[ABS] Main Cylinder Pressure,P GTZ,2107,0.5*F,0,0,bar,740
+[ABS] Current Mileage Value in ECU,ABS mileage,2105,(1.0*(((A*16777216+B*65536+C*256+D)&268435455)))/100,0,0,km,740
+[ABS] Coefficient Tire Circumference Length,X-wheel,2102,G,0,0,,740
+[ABS] Lateral Acceleration,pop acceleration,2107,0.015*D-1.905,0,0,грамм,740
+[ABS] Longitudinal Acceleration,prod accelerator,220207,0.05*A-10,0,0,грамм,740
+[ABS] Vehicle Speed,speed abs,220204,A,0,0,км/час,740
+[ABS] Rear Left Wheel Speed,speed RL,220202,A,0,0,км/час,740
+[ABS] Rear Right Wheel Speed,speed RR,220203,A,0,0,км/час,740
+[ABS] Front Left Wheel Speed,speed FL,220200,A,0,0,км/час,740
+[ABS] Front Right Wheel Speed,speed FR,220201,A,0,0,км/час,740
+[ABS] Valve body temperature,T hydr,2107,I,0,0,*C,740
+[ABS] Steering Wheel Angle,steer wheel ang,2110,0.1*(P*256+Q)-3276.7,0,0,d*,740
+[ABS] Number of Target Teeth,number of target teeth,312B00,(1.0*A)/2,0,0,,740
+[PP] Instantaneous Fuel Level Value,instantaneous fuel level value,222201,(1.0*((C*256+D)))/100,0,67,л.,743
+[PP]Tek Mileage In Km Until Oil Change,km until oil change,220202,(A*256+B),0,0,km,743
+[PP] Power Reserve Until Oil Change Time In Days,days before oil change,220202,(C*256+D),0,0,ДЕНЬ,743
+[PP] Displayed Fuel Level,fuel level,222201,(1.0*((G*256+H)))/100,0,67,л.,743
+[PP] Fuel Supply,fuel supply,222103,A,0,0,l/h,743
+[PP] Fuel Consumption,fuel consumption,222102,(1.0*(5*(A*256+B)))/100,0,0,л.,743
+[PP] Fuel Level Sensor Resistor,R ur fuel,222005,(A*256+B),5,350,Ом,743
+[AC] Humidity,humidity,2121,0.5*C,0,0,%,744
+[AC] Internal Temperature,T int,2121,0.4*B-40,-40,60,*C,744
+[AC] Air Conditioning Request,AC request,2122,{C:4},0,0,,744
+[AC] Left Sensor Int. Sunny Lighting,lion dutch suns,2122,50*(M&31),0,1000,Вт/м2,744
+[AC] Recirculation Damper Position,recirculation,2127,(J&127),0,100,%,744
+[AC] Position Left Mixes. Dampers,Leo honor,2127,(H&127),0,100,%,744
+[AC] Position Right Mix. Dampers,rights honor,2127,(K&127),0,100,%,744
+[AC] Distribution position Dampers,rassl,2127,(G&127),0,100,%,744
+[AC] Right Intensity Sensor Sunny Lighting,rights dutch suns,2122,50*(N&31),0,0,Вт/м2,744
+[AC] Fan Speed ​​Control,speed vent,2121,0.1*J,0,15,V,744
+[AC] Setting Pwm El. Fans. Salon,PWM fan,2121,K,0,100,%,744
+[UCH] Relay 1 Command,Heating element 1,2170,{A:0},0,0,,745
+[UCH] Relay Ros Command 2,Heating element 2,2170,{A:1},0,0,,745
+[UCH] Battery voltage 12 V,V battery,228000,(1.0*(78*A))/1000,0,20,V,745
+[UCH] Outside Temperature,Text,228002,A-40,0,255,*C,745
+[UCH] Vehicle Speed,speed cecbs,2165,(1.0*((A*256+B)))/100,0,250,км/час,745
+[Brake] Tilt value,incline,220206,signed(F),0,0,%,755
+[Brake] Meas. Left Rear Brake Force. Staples,strengthened Lev Supp,220206,(1.0*(G))/10*100,0,0,daN,755
+[Brake] Meas. Right Rear Brake Force. Staples,Strength of Rights Supt,220206,(1.0*(H))/10*100,0,0,daN,755
+[Brake] Rear Brake Temperature,T brake,220206,(N*256+O),0,0,*C,755
+[BZIK] Charge From the Generator,charge,2122,0.390625*C,0,0,%,74D
+[BZIK] Battery voltage 12 V,V battery,2122,0.0625*B,0,0,V,74D
+[BZIK] Air Conditioning Compressor,AC compressor,2104,{D:6},0,0,,74D
+[К9К] Water In Fuel,water!,222058,{A:0},0,0,,
+[К9К] Default Engine Speed ​​Setting,default rpm,222024,(A*256+B)/4,0,0,,
+[К9К] Number of Coolant Heat Plugs,T-plugs cnt,22201D,{A:0}+{A:0}+{A:1}+{A:2},0,0,,
+[К9К] Automatic transmission status: 2-speed manual transmission,checkpoint status,222096,{A:0}+{A:1},0,0,,
+[K9K] Air Conditioner Status,AC state,22201E,{A:0},0,0,,
+[К9К] Starter Operation Status,starter on,222046,{A:0}+{A:1},0,0,,
+[К9К] Status Successful. Completed Regen Dpf,succes regen key,2224AB,{A:0},0,0,,
+[К9К] Fill Level Dpf,DPF load,2224AF,{A:0}+{A:1},0,0,,
